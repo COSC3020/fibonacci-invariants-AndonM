@@ -21,6 +21,8 @@ testing code that uses [jsverify](https://jsverify.github.io/) in
 What is a good invariant for your recursive implementation of `fib()`
 i.e. something that is always true at the beginning of the recursive call?
 
+A good invariant for the recursive implementation of fib() would be, "The largest element in the sequence must equal the sum of the two elements before it where the first two elements are defined as 0 and 1 respectively."
+
 Hint: Think about what the "state of the world" is here and what you can say
 about it at the start of each recursive call.
 
